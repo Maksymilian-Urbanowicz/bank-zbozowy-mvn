@@ -17,4 +17,4 @@ jobs:
           distribution: temurin
           cache: maven
       - name: Build and run tests
-        run: mvn --batch-mode --no-transfer-progress verif
+        run: mvn --batch-mode --no-transfer-progress verify
